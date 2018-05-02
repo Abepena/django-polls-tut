@@ -1,0 +1,10 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"></head><body>{% extends "admin/base.html" %}
+
+{% block title %}{{ title }} | {{ site_title|default:_('Abe's Poll App') }}{% endblock %}
+
+{% block branding %}
+<h1 id="site-name"><a href="{% url 'admin:index' %}">Polls Administration</a></h1>
+{% endblock %}
+
+{% block nav-global %}{% endblock %}
+</body></html>
